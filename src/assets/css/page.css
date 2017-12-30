@@ -1,0 +1,67 @@
+.page {
+    text-align: center;
+    color: #2aac5e;
+    margin: 20px auto 0;
+    background: #fff;
+}
+
+.pagelist {
+    font-size: 0;
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pagelist span {
+    font-size: 16px;
+    display: inline-block;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    margin-left: 5px;
+}
+
+.pagelist .jump {
+    border: 1px solid #2aac5e;
+    width: 36px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagelist .bgprimary {
+    cursor: default;
+    color: #fff;
+    background: #2aac5e;
+    font-weight: 900;
+}
+
+.ellipsis {
+    padding: 0px 8px;
+    font-weight: 700;
+}
+
+.jumppoint {
+    margin-left: 30px;
+}
+
+.bgprimary {
+    cursor: default;
+    color: #fff;
+    background: #2aac5e;
+    border-color: #2aac5e;
+}
+.pagelist .jump-page{
+    border: 1px solid #2aac5e;
+    border-radius: 4px;
+    padding: 0 8px;
+    cursor: pointer;
+}
+.pagelist .jump-page.disabled {
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+.text-success {
+    color:#060;
+    font-size: 12px;
+}
